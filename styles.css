@@ -1,0 +1,50 @@
+:root {
+  --text: #f0dddd;
+  --background: #000000;
+  --primary: #5f0d18;
+  --secondary: #851c1c;
+  --accent: #df2828;
+}
+
+body {
+  padding: 10%;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+#messageImage {
+  width: 100%;
+  height: auto;
+}
+
+#playlistDiv {
+  gap: 5%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlistLink {
+  text-decoration: none;
+}
+
+.playlistButton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+
+  background-color: var(--primary);
+  color: var(--text);
+  font-weight: bold;
+}
+
+.icon {
+  width: 30px;
+}
