@@ -7,24 +7,52 @@
 }
 
 body {
-  padding: 10%;
   background-color: var(--background);
   color: var(--text);
+
+  margin: 0px;
+  overflow-x: hidden;
 }
 
-#messageImage {
+
+
+#content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+#playlists {
+  gap: 5%;
+}
+
+
+
+.center {
+  display: flex;
+  align-items: center;.icon {
+    width: 30px;
+  }
+  
+  justify-content: center;
+}
+
+.imageFill {
   width: 100%;
   height: auto;
 }
 
-#playlistDiv {
-  gap: 5%;
-}
 
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.icon {
+  width: 30px;
 }
 
 .playlistLink {
@@ -43,8 +71,4 @@ body {
   background-color: var(--primary);
   color: var(--text);
   font-weight: bold;
-}
-
-.icon {
-  width: 30px;
 }

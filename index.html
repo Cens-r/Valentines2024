@@ -9,50 +9,63 @@
   </head>
 
   <body>
-    <div id="messageDiv" class="center">
-      <img
-        id="messageImage"
-        src="images/Valentines_Message.png"
-        alt="Happy Valentine's Day!"
-      />
+
+    <!-- Main Body Content -->
+    <div id="content">
+
+      <!-- Happy Valentine's Day! -->
+      <div id="messageDiv" class="center">
+        <img
+          id="messageImage"
+          class="imageFill"
+          src="images/Valentines_Message.png"
+          alt="Happy Valentine's Day!"
+        />
+      </div>
+
+      <!-- Playlist Buttons -->
+      <div id="playlists" class="center">
+
+        <!-- Spotify -->
+        <a
+          class="playlistLink"
+          href="https://open.spotify.com/playlist/3ipwDPCxgMR6PQ5qquBVsI?si=4a39e3d8549e49d9"
+        >
+          <button class="playlistButton">
+            <span>
+              <img
+                class="icon"
+                src="images/Spotify_Icon.png"
+                alt="Spotify Icon"
+              />
+            </span>
+            <span class="bold">Spotify</span>
+          </button>
+        </a>
+
+        <!-- Youtube Music -->
+        <a
+          class="playlistLink"
+          href="https://music.youtube.com/playlist?list=PLTyYSWaWm7Lq1Q8dOoj9qB2dmWQyGQ5SP&si=v59XzkL6SPli4IWd"
+        >
+          <button class="playlistButton">
+            <span>
+              <img
+                class="icon"
+                src="images/Youtube_Music_Icon.png"
+                alt="YT Music Icon"
+              />
+            </span>
+            <span>YT Music</span>
+          </button>
+        </a>
+      </div>
     </div>
 
-    <div class="center">
-      <p>I made you a playlist of songs I think you'd like!</p>
+    <!-- Page Footer -->
+    <div id="footer">
+      <img class="imageFill" src="images/Valentines_Footer.png" alt="Bleeding Hearts">
     </div>
 
-    <div id="playlistDiv" class="center">
-      <a
-        class="playlistLink"
-        href="https://open.spotify.com/playlist/3ipwDPCxgMR6PQ5qquBVsI?si=4a39e3d8549e49d9"
-      >
-        <button class="playlistButton">
-          <span>
-            <img
-              class="icon"
-              src="images/Spotify_Icon.png"
-              alt="Spotify Icon"
-            />
-          </span>
-          <span class="bold">Spotify</span>
-        </button>
-      </a>
-
-      <a
-        class="playlistLink"
-        href="https://music.youtube.com/playlist?list=PLTyYSWaWm7Lq1Q8dOoj9qB2dmWQyGQ5SP&si=v59XzkL6SPli4IWd"
-      >
-        <button class="playlistButton">
-          <span>
-            <img
-              class="icon"
-              src="images/Youtube_Music_Icon.png"
-              alt="Youtube Music Icon"
-            />
-          </span>
-          <span>Youtube Music</span>
-        </button>
-      </a>
-    </div>
   </body>
 </html>
