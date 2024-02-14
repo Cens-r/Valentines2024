@@ -21,6 +21,13 @@ body {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 80%;
+  margin-top: 5%;
+}
+
+#message {
+  text-align: center;
 }
 
 #footer {
@@ -30,7 +37,7 @@ body {
 }
 
 #playlists {
-  gap: 5%;
+  gap: 2%;
 }
 
 
@@ -45,11 +52,14 @@ body {
 }
 
 .imageFill {
+  object-fit: scale-down;
   width: 100%;
   height: auto;
 }
 
-
+em {
+  font-weight: bold;
+}
 
 .icon {
   width: 30px;
@@ -67,6 +77,8 @@ body {
   padding: 15px;
   border: none;
   border-radius: 10px;
+
+  cursor: pointer;
 
   background-color: var(--primary);
   color: var(--text);
